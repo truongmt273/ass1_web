@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="stylesheet" href="../style/header__footer.css" />
+    <link rel="stylesheet" href="../style/home.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-banner">
+            <h1>Interior</h1>
+        </div>
+        <div class="clear"></div>
+        <nav>
+            <div class="site-title">Interior</div>
+            <ul>
+                <li><a href="#Trang chủ">Trang chủ</a></li>
+                <li><a href="#Giới thiệu">About Us</a></li>
+                <li><a href="#Sản Phẩm">Sản Phẩm</a></li>
+                <li><a href="#Bảng giá">Bảng giá</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <ul>
+        </nav>
+    </header>
+
+    <!-- top nav -->
+    <script>
+        $(window).scroll(function() {
+            if ($(window).scrollTop() >= 300) {
+                $('nav').addClass('fixed-header');
+                $('nav div').addClass('visible-title');
+            } else {
+                $('nav').removeClass('fixed-header');
+                $('nav div').removeClass('visible-title');
+            }
+        });
+    </script>
+    <!-- end top nav -->
+
+
+    <!-- body -->
+
+    <div class="site-section  border-bottom">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4  mb-5 mb-lg-0">
+                    <div>
+                        <h5 class="mt-0">Giải pháp sáng tạo</h5>
+                        Vẻ đẹp của thiết kế là khả năng biến đổi, thích ứng và kết hợp các ảnh hưởng để nâng cao phong cách và chức năng.
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div>
+                        <h5 class="mt-0">Thi công nội thất</h5>
+                        Thiết kế trọn gói, kiến trúc sư trên 10 năm kinh nghiệm.
+                    </div>
+                </div>
+
+                <div class="col-lg-4  mb-5 mb-lg-0">
+                    <div>
+                        <h5 class="mt-0">Thiết kế trực quan</h5>
+                        Thiết kế theo nguyên tắc nhất quán, sử dụng dễ dàng và thân thuộc.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="site-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="img-border">
+                        <img src="../images/img_3.jpg" alt="Image" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-5 ml-auto">
+                    <span class="sub-title">Why Us</span>
+                    <h2 class="font-weight-bold text-black mb-5">Tại sao nên chọn chúng tôi</h2>
+                    <div class="accordion" id="accordionExample">
+
+                        <h2 class="mb-0 border rounded mb-2">
+                                <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    1. Nhu cầu khách hàng?
+                    </button>
+                        </h2>
+
+                        <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ul>
+                                    <li>Bạn đang tìm kiếm công ty thiết kế nội thất uy tín ?</li>
+                                    <li>Bạn cần tìm công ty thi công trang trí nội thất chuyên nghiệp ?</li>
+                                    <li>Bạn cần báo giá các hạng mục trang trí: văn phòng, nhà hàng, khách sạn, quán cafe, trà sữa, spa, showroom, thẩm mỹ viện, trường học… ?</li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h2 class="mb-0 border rounded mb-2">
+                            <button class="btn " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    2. Phương án tối ưu và tiết kiệm nhất cho bạn?
+                  </button>
+                        </h2>
+
+                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ul>
+                                    <li>Tư vấn & báo giá nhanh</li>
+                                    <li>Chi phí cạnh tranh nhất</li>
+                                    <li>Thợ giỏi, kinh nghiệm lâu năm</li>
+                                    <li>Sử dụng vật tư chất lượng</li>
+                                    <li>Luôn nắm bắt cập nhật xu thế</li>
+                                    <li>Bảo hành lâu dài</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h2 class="mb-0 border rounded mb-2">
+                            <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    3. Dịch vụ thiết kế nội thất?
+                  </button>
+                        </h2>
+
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ul>
+                                    <li>Thiết kế nội thất căn hộ chung cư</li>
+                                    <li>Thiết kế nội thất nhà hàng, khách sạn</li>
+                                    <li>Thiết kế nội thất showroom, shop</li>
+                                    <li>Thiết kế nội thất nhà phố, biệt thự...</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h2 class="mb-0 border rounded mb-2">
+                            <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    4. Hạng mục thi công?
+                  </button>
+                        </h2>
+
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                <ul>
+                                    <li>Cải tạo thô mặt bằng hiện trạng</li>
+                                    <li>Sản xuất gia công đồ gỗ nội thất</li>
+                                    <li>Cung cáp, thi công trang trí nội thất công trình</li>
+                                    <li>Trang trí nội thất khác</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="container ">
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <span class="sub-title">Happy Clients</span>
+                <h2 class="font-weight-bold text-black mb-5">Chuyên gia thiết kế</h2>
+            </div>
+        </div>
+
+        <div class="row col-12 text-center">
+            <div class="col-3" style="width: 380px;">
+                <div class="testimony">
+                    <img src="../images/symap.jpg" alt="Image">
+                    <h3>Văn Sỹ</h3>
+                    <span class="sub-title">Owner of Building Co.</span>
+                    <p>“<em>Một thiết kế tốt là thiết kế ai cũng có thể hiểu và cảm nhận nhưng không dễ dàng bị lãng quên.</em>”</p>
+                </div>
+            </div>
+            <div class="col-3" style="width: 380px;">
+                <div class="testimony">
+                    <img src="../images/tan.jpg" alt="Image">
+                    <h3>Nhật Tân</h3>
+                    <span class="sub-title">Owner of Building Co.</span>
+                    <p>“<em>Mỗi vật dù nhỏ nhất cũng đều có những câu chuyện riêng…. Từng viên gạch là những mảnh ghép không thể tách rời của một công trình lớn.</em>”</p>
+                </div>
+            </div>
+            <div class="col-3" style="width: 380px;">
+                <div class="testimony">
+                    <img src="../images/truong.jpg" alt="Image">
+                    <h3>Đức Trường</h3>
+                    <span class="sub-title">Owner of Building Co.</span>
+                    <p>“<em>Kiến trúc là một bộ môn nghệ thuật thị giác mà công trình là minh chứng rõ ràng nhất</em>”</p>
+                </div>
+            </div>
+            <div class="col-3" style="width: 380px;">
+                <div class="testimony">
+                    <img src="../images/person_3.jpg" alt="Image">
+                    <h3>Đức Tuấn</h3>
+                    <span class="sub-title">Owner of Building Co.</span>
+                    <p>“<em>Thiết kế tốt đến từ người kiến tạo tốt. Mọi vấn đề đều có thể giải quyết bằng những giải pháp hay.</em>”</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="site-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <span class="sub-title">Tin tức &amp; Cập nhật</span>
+                    <h2 class="font-weight-bold text-black mb-5">Các bài viết trên blog của chúng tôi</h2>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 post-entry">
+                    <a href="#" class="d-block figure">
+                        <img src="../images/img_1.jpg" alt="Image" class="img-fluid">
+                    </a>
+                    <span class="text-muted d-block mb-2">23, January 2019</span>
+                    <h3><a href="#">Architecture is ready to take the world to the next level </a></h3>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 post-entry">
+                    <a href="#" class="d-block figure">
+                        <img src="../images/img_2.jpg" alt="Image" class="img-fluid">
+                    </a>
+                    <span class="text-muted d-block mb-2">23, January 2019</span>
+                    <h3><a href="#">Architecture is ready to take the world to the next level </a></h3>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 post-entry">
+                    <a href="#" class="d-block figure">
+                        <img src="../images/img_3 .1.jpg" alt="Image" class="img-fluid">
+                    </a>
+                    <span class="text-muted d-block mb-2">23, January 2019</span>
+                    <h3><a href="#">Architecture is ready to take the world to the next level </a></h3>
+                </div>
+
+            </div>
+            <div class="row mt-5 text-center">
+                <div class="col-12">
+                    <p><a href="#" class="btn btn-primary btn-lg">View All Posts</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end body -->
+
+
+
+    <!-- footer -->
+
+
+    <div class="mt-5 pt-5 pb-5 footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-xs-12 about-company">
+                    <h2>Công ty thiết kế nội thất NHOM38</h2>
+                    <p class="pr-5 text-white-50">NHOM38 là một trong các công ty hàng đầu về thiết kế xây dựng và thi công nội thất. Với tất cả tâm huyết, kinh nghiệm, sự nhiệt tình và sáng tạo, đội ngũ Hùng Phát tự tin mang đến cho quý khách các phong cách nội thất thẩm mỹ đẹp mắt, nâng tầm giá trị cho ngôi nhà bạn.</p>
+                    <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
+                </div>
+                <div class="col-lg-3 col-xs-12 links">
+                    <h4 class="mt-lg-0 mt-sm-3">Xem thêm</h4>
+                    <ul class="m-0 p-0">
+                        <li>- <a href="#">Về chúng tôi</a></li>
+                        <li>- <a href="#">Sản phẩm</a></li>
+                        <li>- <a href="#">Bảng giá</a></li>
+                        <li>- <a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-xs-12 location">
+                    <h4 class="mt-lg-0 mt-sm-4">Văn phòng</h4>
+                    <p>Đông Hòa, Dĩ An, Bình Dương, Việt Nam</p>
+                    <p class="mb-0"><i class="fa fa-phone mr-3"></i>(541) 754-3010</p>
+                    <p><i class="fa fa-envelope-o mr-3"></i>nhom38@gmail.com</p>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col copyright">
+                    <p class=""><small class="text-white-50">© 2019. All Rights Reserved.</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

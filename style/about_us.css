@@ -1,0 +1,55 @@
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.site-section {
+    padding: 5em 0;
+}
+
+.years {
+    line-height: 1.2;
+    font-weight: 900;
+    font-size: 100px;
+    color: #ff5733;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.experience {
+    position: absolute;
+    display: block;
+    right: 0;
+}
+
+.caption {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: .8em;
+    font-size: 14px;
+    font-weight: 900;
+    color: #ff5733;
+}
+
+.sub-title {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 12px;
+    font-weight: 700;
+    color: #ff5733;
+    margin-bottom: 10px;
+}
+
+.about_2 {
+    width: 90%;
+    height: 90%;
+}
+
+.ul-check li {
+    padding-left: 30px;
+    margin-bottom: 10px;
+    list-style: inside;
+}
